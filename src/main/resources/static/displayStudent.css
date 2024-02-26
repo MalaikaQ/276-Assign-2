@@ -1,0 +1,41 @@
+.center-heading {
+    text-align: center;
+    margin-top: 5rem; 
+    margin-bottom: 1rem; 
+    border: 2px solid #000; /* Black border */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.student-rectangle {
+    margin-top: 2rem; 
+    width: 200px;
+    height: 280px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 2px solid #000; /* Add a border */
+}
+
+.student-rectangle:hover {
+    transform: scale(1.05);
+    border-color: #f00; /* Change border color on hover */
+}
+
+.student-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.student-info {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.update-link,
+.delete-link {
+    margin-top: 10px;
+    display: inline-block;
+}
